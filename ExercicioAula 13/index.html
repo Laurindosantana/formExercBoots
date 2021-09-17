@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Bootstrap5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap5/css/stily.css">
+</head>
+
+<body>
+    <section>
+        <div id="fundo">
+            <div class="text-center mt-5 " >
+                <h2>Formulário para exercício em aula</h2>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col foco">
+                        <input type="text" class="form-control success " placeholder="primeiro Nome" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control " placeholder="Segundo Nome" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="row  mt-3">
+                    <div class="form-check form-switch col-2">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label " for="flexCheckIndeterminate">
+                            Masculino
+                        </label>
+                    </div>
+                    <div class="form-check form-switch col-2">
+                        <input class="form-check-input " type="checkbox" value="" id="flexCheckIndeterminate">
+                        <label class="form-check-label" for="flexCheckIndeterminate">
+                            Feminino
+                        </label>
+                    </div>
+                </div>
+                <select class="form-select mt-3" aria-label="Default select example">
+                    <option selected>Escolha seu Curso</option>
+                    <option value="1">Bootstrap5</option>
+                    <option value="2">Javascript</option>
+                    <option value="3">Css</option>
+                    <option value="4">Native</option>
+                </select>
+                <div class="mb-3 mt-3">
+                    <label for="formFile" class="form-label">Anexe uma foto para seu perfil</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="exampleFormControlInput1" class="form-label">Digite seu Email para receber nossas
+                        notificações</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <input class="btn btn-primary btn-lg" type="button" value="Enviar">
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="bootstrap5/js/bootstrap.min.js"></script>
+
+</html>
